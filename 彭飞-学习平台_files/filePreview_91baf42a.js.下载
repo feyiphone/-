@@ -1,0 +1,4 @@
+/*! ablejs - v0.2.0 - Monday, March 31st, 2025, 3:10:58 PM
+* http://www.ablesky.com
+* Copyright (c) 2025 frontend@ablesky.com; Licensed  */
+require(["lib/jquery/jquery.dialog"],function(){$(".J_preview-btn").die().live("click",function(){var e=$(this).attr("data-id"),t="/resourceLibrary.do?action=previewResource&contentId="+e;window.open(t,"newwindow","height=800px,width="+screen.availWidth/2+"px,top=0,left=0,toolbar=no,menubar=no,scrollbars=yes, resizable=yes,location=no, status=no,alwaysRaised=yes,depended=yes")})});
